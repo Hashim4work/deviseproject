@@ -122,7 +122,7 @@ Devise.setup do |config|
   # Send a notification email when the user's password is changed.
   # config.send_password_change_notification = false
 
-  # ==> Configuration for :confirmable
+  #==> Configuration for :confirmable
   # A period that the user is allowed to access the website even without
   # confirming their account. For instance, if set to 2.days, the user will be
   # able to access the website for two days without confirming their account,
@@ -164,7 +164,7 @@ Devise.setup do |config|
   # secure: true in order to force SSL only cookies.
   # config.rememberable_options = {}
 
-  # ==> Configuration for :validatable
+  #==> Configuration for :validatable
   # Range for password length.
   config.password_length = 6..128
 
